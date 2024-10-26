@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specbee Assignment</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.cdnfonts.com/css/metropolis-2" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <div class="page-content">
+        <header class="head">
+            <h1 class="header__title">
+                View our Featured Speakers for the Event
+            </h1>
+            <p class="header__description">
+                Speakers are core contributors and industry thought leaders working at <span
+                    class="header__span">companies</span> that push for innovation.
+            </p>
+        </header>
+
+        <section class="speaker">
+            <img src="./images/cross.png" class="speaker__close-icon" alt="Close Icon" />
+            <div class="speaker__details">
+                <div class="speaker__avatar">
+                    <img src="./images/avatar1.png" alt="John Doe" />
+                </div>
+                <div class="speaker__social">
+                    <p class="speaker__name">John Doe</p>
+                    <p class="speaker__designation">Chief Marketing Office</p>
+                    <p class="speaker__company">Specbee</p>
+
+                    <a class="speaker__social-icons" href="#">
+                        <img src="./images/social-icons.png" alt="Social Icons" />
+                    </a>
+                </div>
+                <div class=speaker__divider>
+                    <img src="./images/line.png" alt="Line" class="line" />
+                    <img src="./images/horizontal-line.png" alt="horizontal-line" class="h-line" />
+                </div>
+                <div class="speaker-description">
+                    <p class="description">
+                        Monotonectally synergize business communities rather than client-centric convergence.
+                        Assertively unleash cross-platform best practices rather than pandemic total linkage.
+                        Synergistically monetize parallel infomediaries whereas 2.0 mindshare. Dramatically pursue
+                        real-time markets through e-business strategic theme areas.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <div id="carouselExample" class="carousel slide">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <img src="./images/prev-arrow.png" alt="enabled-navigation" class="prev-arrow" />
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <section class="cards">
+                        <div class="card" data-avatar="./images/avatar1.png" data-name="John Doe"
+                            data-post="Chief Marketing Officer" data-company="Acme Corp">
+                            <div class="avatar"><img src="./images/avatar1.png" alt="John Doe" /></div>
+                            <p class="card__name">John Doe</p>
+                            <div>
+                                <p class="card__post">Chief Marketing Officer</p>
+                                <p class="card__company">Acme Corp</p>
+                            </div>
+                        </div>
+                        <div class="card" data-avatar="./images/avatar2.png" data-name="John Smith"
+                            data-post="Chief Engagement Officer" data-company="Acquia">
+                            <div class="avatar"><img src="./images/avatar2.png" alt="John Smith" /></div>
+                            <p class="card__name">John Smith</p>
+                            <div>
+                                <p class="card__post">Chief Engagement Officer</p>
+                                <p class="card__company">Acquia</p>
+                            </div>
+                        </div>
+                        <div class="card" data-avatar="./images/avatar3.png" data-name="John Williams"
+                            data-post="Chief Technical Officer" data-company="Pantheon">
+                            <div class="avatar"><img src="./images/avatar3.png" alt="John Williams" /></div>
+                            <p class="card__name">John Williams</p>
+                            <div>
+                                <p class="card__post">Chief Technical Officer</p>
+                                <p class="card__company">Pantheon</p>
+                            </div>
+                        </div>
+                        <div class="card" data-avatar="./images/avatar4.png" data-name="John Snow"
+                            data-post="Chief Marketing Officer" data-company="Specbee">
+                            <div class="avatar"><img src="./images/avatar4.png" alt="John Snow" /></div>
+                            <p class="card__name">John Snow</p>
+                            <div>
+                                <p class="card__post">Chief Marketing Officer</p>
+                                <p class="card__company">Specbee</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="carousel-item">
+                    <section class="cards">
+                        <div class="card" data-avatar="./images/avatar1.png" data-name="John Doe"
+                            data-post="Chief Marketing Officer" data-company="Acme Corp">
+                            <div class="avatar"><img src="./images/avatar1.png" alt="John Doe" /></div>
+                            <p class="card__name">John Doe</p>
+                            <div>
+                                <p class="card__post">Chief Marketing Officer</p>
+                                <div class="card__company">Acme Corp</div>
+                            </div>
+                        </div>
+                        <div class="card" data-avatar="./images/avatar2.png" data-name="John Smith"
+                            data-post="Chief Engagement Officer" data-company="Acquia">
+                            <div class="avatar"><img src="./images/avatar2.png" alt="John Smith" /></div>
+                            <p class="card__name">John Smith</p>
+                            <div>
+                                <p class="card__post">Chief Engagement Officer</p>
+                                <p class="card__company">Acquia</p>
+                            </div>
+                        </div>
+                        <div class="card" data-avatar="./images/avatar3.png" data-name="John Williams"
+                            data-post="Chief Technical Officer" data-company="Pantheon">
+                            <div class="avatar"><img src="./images/avatar3.png" alt="John Williams" /></div>
+                            <p class="card__name">John Williams</p>
+                            <div>
+                                <p class="card__post">Chief Technical Officer</p>
+                                <p class="card__company">Pantheon</p>
+                            </div>
+                        </div>
+                        <div class="card" data-avatar="./images/avatar4.png" data-name="John Snow"
+                            data-post="Chief Marketing Officer" data-company="Specbee">
+                            <div class="avatar"><img src="./images/avatar4.png" alt="John Snow" /></div>
+                            <p class="card__name">John Snow</p>
+                            <div>
+                                <p class="card__post">Chief Marketing Officer</p>
+                                <p class="card__company">Specbee</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <img src="./images/enabled-navigation.png" alt="enabled-navigation" class="next-arrow" />
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+
+        <section class="program">
+            <div class="program__box">
+                <div class="program__info">Click here to see the full program</div>
+                <img src="./images/arrow.png" class="arrow-icon" alt="Arrow Icon" />
+            </div>
+            <button class="program__button">
+                <span class="program__button-text">See the Program</span>
+            </button>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
